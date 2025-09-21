@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=40b1650f5d6bf4a40bd2646295c64491&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:Label text="[Game Name]" class="header" />
+        <ui:Button text="Start" name="StartGameButton" class="button" style="-unity-text-align: middle-center; white-space: pre; border-top-left-radius: 19px; border-top-right-radius: 19px; border-bottom-right-radius: 19px; border-bottom-left-radius: 19px; margin-top: 102px; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 10px; color: rgb(255, 255, 255);" />
+        <ui:Button text="Settings" name="SettingsButton" class="button" style="margin-top: 71px; color: rgb(255, 255, 255);" />
+    </ui:VisualElement>
+</ui:UXML>
